@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "jsx": "react-native",
+        "lib": ["es2017"],
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "noEmit": true,
+        "strict": false,
+        "target": "ES6",
+        "baseUrl": ".",
+        "paths": {
+            "@": ["./src/"],
+            "@/*": ["./src/*"],
+            "@component/*": ["./src/components/*"],
+            "@container/*": ["./src/containers/*"],
+            "@module/*": ["./src/modules/*"],
+            "@screen/*": ["./src/screens/*"],
+            "@core/*": ["./src/core/*"],
+            "@api/*": ["./src/core/api/*"],
+            "@styles/*": ["./src/styles/*"],
+            "@util/*": ["./src/utils/*"],
+            "@store/*": ["./src/core/store/*"],
+            "@theme/*": ["./src/theme/*"],
+            "@assets/*": ["./src/assets/*"]
+        }
+    },
+    "include": [
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.js",
+        "**/*.jsx"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
